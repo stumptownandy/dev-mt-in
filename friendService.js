@@ -1,4 +1,4 @@
-gular.module('devMtIn')
+angular.module('devMtIn')
 .service('friendService', function( $http, $q ) {
 	var baseUrl = 'http://localhost:8081';
 
